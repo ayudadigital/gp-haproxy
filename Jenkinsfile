@@ -15,7 +15,7 @@ def buildAndPublishDockerImage(nextReleaseNumber = "") {
         nextReleaseNumber = sh (script: "kd get-next-release-number .", returnStdout: true).trim().substring(1)
     }
     docker.withRegistry("", 'docker-token') {
-        def customImage = docker.build("${env.DOCKER_ORGANIZATION}/${cfg.projectName}:${nextReleaseNumber}", "--pull --no-cache .")
+        def customImage = docker.build("${env.DOCKER_ORGANIZATION}/${cfg.projectName}:${nextReleaseNumber}", "--pull --no-cache ${cfg.projectName.substring(3)}")
         customImage.push()
         if (nextReleaseNumber != "beta") {
             customImage.push('latest')
