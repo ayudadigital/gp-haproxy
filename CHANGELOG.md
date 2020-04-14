@@ -1,5 +1,26 @@
 # Changelog
 
+## v1.1.0 (2020-04-14)
+
+### Changes
+
+#### Upgrade
+
+* Change references from teecke to tpbtools ([09e335b](https://github.com/tpbtools/gp-haproxy/commit/09e335b))
+
+#### Build
+
+* Update Auto Release Log adding v1.1.0 info with JPL ([308791f](https://github.com/tpbtools/gp-haproxy/commit/308791f))
+
+#### Docs
+
+* Update contributing ([75e5fb8](https://github.com/tpbtools/gp-haproxy/commit/75e5fb8))
+* Generate v1.0.0 changelog with JPL ([b45d132](https://github.com/tpbtools/gp-haproxy/commit/b45d132))
+
+### Authors
+
+* Pedro Amador
+
 ## v1.0.0 (2020-04-13)
 
 ### Changes
