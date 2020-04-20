@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   haproxy:
-    image: teecke/gp-haproxy:0.1.0
+    image: tpbtools/gp-haproxy:1.1.0
     build: haproxy
     ports:
       - 80:80
