@@ -1,4 +1,4 @@
-FROM haproxy:2.1.3-alpine
+FROM haproxy:2.1.4-alpine
 
 # Packages
 RUN apk add --no-cache certbot
