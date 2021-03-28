@@ -1,5 +1,22 @@
 # Changelog
 
+## v2.0.1 (2021-03-28)
+
+### Changes
+
+#### Build
+
+* Update Auto Release Log adding v2.0.1 info with JPL ([06a9642](https://github.com/ayudadigital/gp-haproxy/commit/06a9642))
+* Use jpl v6.2.0 ([1270a6a](https://github.com/ayudadigital/gp-haproxy/commit/1270a6a))
+
+#### Docs
+
+* Generate v2.0.0 changelog with JPL ([8769bb2](https://github.com/ayudadigital/gp-haproxy/commit/8769bb2))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.0.0 (2020-04-24)
 
 ### Changes
